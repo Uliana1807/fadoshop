@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FADOSHOP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/68ac156ff5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <nav id="navbar">
+        <img src="./images/pngwing.com.png" alt="nike logo" class="logo">
+        <ul class="nav-list">
+            <li><a href="index.html">ГЛАВНАЯ</a></li>
+            <li><a class="active" href="contact.html">КОНТАКТЫ</a></li>
+            <li><a href="blog.html">О НАС</a></li>
+            <li class="hide-icon"><i class="fa-solid fa-bag-shopping iconCart"><div class="totalQuantity">0</div></i></li>
+            <li id="close"><i class="fa-solid fa-x"></i></li>
+        </ul>
+        <div id="mobile">
+                <div id="mobileBag">
+                    <i class="fa-solid fa-bag-shopping iconCart"><div class="totalQuantity">0</div></i>
+                </div>
+                <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <section>   
+        <div class="contact-box ">
+            <h1>Связь с нами</h1>
+            <form action="https://formsubmit.co/yusrinelson17@gmail.com" method="POST">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Введите сообщение:</label>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+    
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    
+    <section class="newsletter">
+        <h2>ПОДПИШИСЬ НА РАССЫЛКУ СКИДОК!</h2>
+        <div class="form-box">
+            <form action="https://formsubmit.co/yusrinelson17@gmail.com" method="POST" class="signup-form">
+                <input type="email" name="email" placeholder="Email" class="email">
+                <input type="submit" value="подтвердить" class="submit-button">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footer-list1">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+
+        <ul class="footer-list2">
+            
+            <div class="left-text">
+                <li>ДОСТАВКА & САМОВЫВОЗ</li>
+                <li>СТАТУС ЗАКАЗА</li>
+                <li>ВОЗВРАТ</li>
+                <li>СПОСОБ ОПЛАТЫ</li>
+            </div>
+            <div class="right-text">
+                <li>НАЙТИ МАГАЗИН</li>
+                <li>NIKE JOURNAL</li>
+                <li>ОБРАТНАЯ СВЯЗЬ</li>
+                <li>СВЯЗАТЬСЯ С НАМИ</li>
+            </div>
+            
+        </ul>
+        <ul class="footer-list3">
+            <li>Руководство</li>
+            <li>Условия использования</li>
+            <li>Настройка куки</li>
+            <li>Информация о компании</li>
+            <li>Политика конфиденциальности и использования файлов куки</li>
+        </ul>
+
+        <p>© 2024 FADOSHOP. Все права защищены</p>
+    </footer>
+
+</div>
+<div class="cart">
+    <h2>КОРЗИНА</h2>
+    <div class="listCart">
+        <div class="item">
+            <!-- <img src="./images/sneaker1.png" alt="">
+            <div class="content">
+                <div class="name">
+                    Product Name
+                </div>
+                <div class="price">
+                    $50/1 product
+                </div>
+            </div>
+            <div class="quantity">
+                <button>-</button>
+                <span class="value">3</span>
+                <button>+</button>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="buttons">
+        <div class="close">ЗАКРЫТЬ</div>
+        <div class="checkout">
+            <a href="checkout.html">
+                ОФОРМИТЬ
+            </a>
+        </div>
+    </div>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
